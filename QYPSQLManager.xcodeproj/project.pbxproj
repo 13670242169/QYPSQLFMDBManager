@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1824591E1FCFDE5D00570B82 /* DiscardedFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824591D1FCFDE5D00570B82 /* DiscardedFun.swift */; };
+		182459211FCFE56700570B82 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824591F1FCFE56700570B82 /* UpdateViewController.swift */; };
+		182459221FCFE56700570B82 /* UpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182459201FCFE56700570B82 /* UpdateViewController.xib */; };
+		185CB5521FCE8E9600AB7EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5511FCE8E9600AB7EB0 /* AppDelegate.swift */; };
+		185CB5541FCE8E9600AB7EB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5531FCE8E9600AB7EB0 /* ViewController.swift */; };
+		185CB5571FCE8E9600AB7EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185CB5551FCE8E9600AB7EB0 /* Main.storyboard */; };
+		185CB5591FCE8E9600AB7EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CB5581FCE8E9600AB7EB0 /* Assets.xcassets */; };
+		185CB55C1FCE8E9600AB7EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185CB55A1FCE8E9600AB7EB0 /* LaunchScreen.storyboard */; };
+		185CB5671FCE8E9600AB7EB0 /* QYPSQLManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5661FCE8E9600AB7EB0 /* QYPSQLManagerTests.swift */; };
+		185CB5721FCE8E9600AB7EB0 /* QYPSQLManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5711FCE8E9600AB7EB0 /* QYPSQLManagerUITests.swift */; };
+		185CB5801FCE8FCD00AB7EB0 /* QYPSQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB57F1FCE8FCD00AB7EB0 /* QYPSQLiteManager.swift */; };
+		185CB5821FCE91CB00AB7EB0 /* QYPObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5811FCE91CB00AB7EB0 /* QYPObject+Extension.swift */; };
+		185CB5841FCE941700AB7EB0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5831FCE941700AB7EB0 /* Person.swift */; };
+		185CB58D1FCFAF5400AB7EB0 /* RunTime+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB58C1FCFAF5400AB7EB0 /* RunTime+Ext.swift */; };
+		185CB58F1FCFB0BA00AB7EB0 /* QYPDBApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB58E1FCFB0BA00AB7EB0 /* QYPDBApi.swift */; };
+		185CB5921FCFB8D400AB7EB0 /* QYPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5901FCFB8D400AB7EB0 /* QYPTableViewCell.swift */; };
+		185CB5931FCFB8D400AB7EB0 /* QYPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185CB5911FCFB8D400AB7EB0 /* QYPTableViewCell.xib */; };
+		185CB5991FCFBB7500AB7EB0 /* SQLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB5981FCFBB7500AB7EB0 /* SQLViewModel.swift */; };
+		7FFC8EE477784D1D510C639D /* Pods_QYPSQLManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E88DEE2230B81863CC702FD /* Pods_QYPSQLManager.framework */; };
+		91491A441FCEF45E0033236E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91491A431FCEF45E0033236E /* Student.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185CB5631FCE8E9600AB7EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185CB5461FCE8E9600AB7EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185CB54D1FCE8E9600AB7EB0;
+			remoteInfo = QYPSQLManager;
+		};
+		185CB56E1FCE8E9600AB7EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185CB5461FCE8E9600AB7EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185CB54D1FCE8E9600AB7EB0;
+			remoteInfo = QYPSQLManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0415987A7AF2357D2B650610 /* Pods_QYPSQLManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYPSQLManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1824591D1FCFDE5D00570B82 /* DiscardedFun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscardedFun.swift; sourceTree = "<group>"; };
+		1824591F1FCFE56700570B82 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		182459201FCFE56700570B82 /* UpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateViewController.xib; sourceTree = "<group>"; };
+		185CB54E1FCE8E9600AB7EB0 /* QYPSQLManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYPSQLManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CB5511FCE8E9600AB7EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185CB5531FCE8E9600AB7EB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185CB5561FCE8E9600AB7EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185CB5581FCE8E9600AB7EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185CB55B1FCE8E9600AB7EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185CB55D1FCE8E9600AB7EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CB5621FCE8E9600AB7EB0 /* QYPSQLManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYPSQLManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CB5661FCE8E9600AB7EB0 /* QYPSQLManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYPSQLManagerTests.swift; sourceTree = "<group>"; };
+		185CB5681FCE8E9600AB7EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CB56D1FCE8E9600AB7EB0 /* QYPSQLManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYPSQLManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CB5711FCE8E9600AB7EB0 /* QYPSQLManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYPSQLManagerUITests.swift; sourceTree = "<group>"; };
+		185CB5731FCE8E9600AB7EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CB57F1FCE8FCD00AB7EB0 /* QYPSQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYPSQLiteManager.swift; sourceTree = "<group>"; };
+		185CB5811FCE91CB00AB7EB0 /* QYPObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QYPObject+Extension.swift"; sourceTree = "<group>"; };
+		185CB5831FCE941700AB7EB0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		185CB58C1FCFAF5400AB7EB0 /* RunTime+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RunTime+Ext.swift"; sourceTree = "<group>"; };
+		185CB58E1FCFB0BA00AB7EB0 /* QYPDBApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYPDBApi.swift; sourceTree = "<group>"; };
+		185CB5901FCFB8D400AB7EB0 /* QYPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYPTableViewCell.swift; sourceTree = "<group>"; };
+		185CB5911FCFB8D400AB7EB0 /* QYPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QYPTableViewCell.xib; sourceTree = "<group>"; };
+		185CB5981FCFBB7500AB7EB0 /* SQLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLViewModel.swift; sourceTree = "<group>"; };
+		2C0F7CA956377F62CC69F4D5 /* Pods-QYPSQLManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYPSQLManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYPSQLManager/Pods-QYPSQLManager.release.xcconfig"; sourceTree = "<group>"; };
+		6E88DEE2230B81863CC702FD /* Pods_QYPSQLManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYPSQLManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91491A431FCEF45E0033236E /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9A6C54316A74005A7BFBB61F /* Pods-QYPSQLManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYPSQLManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYPSQLManager/Pods-QYPSQLManager.debug.xcconfig"; sourceTree = "<group>"; };
+		ECDF6B2C19ECD23A3442AD6F /* Pods_QYPSQLManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYPSQLManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185CB54B1FCE8E9600AB7EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC8EE477784D1D510C639D /* Pods_QYPSQLManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB55F1FCE8E9600AB7EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB56A1FCE8E9600AB7EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185CB5451FCE8E9600AB7EB0 = {
+			isa = PBXGroup;
+			children = (
+				185CB5501FCE8E9600AB7EB0 /* QYPSQLManager */,
+				185CB5651FCE8E9600AB7EB0 /* QYPSQLManagerTests */,
+				185CB5701FCE8E9600AB7EB0 /* QYPSQLManagerUITests */,
+				185CB54F1FCE8E9600AB7EB0 /* Products */,
+				BB550ABBBFDFD27C5F35D045 /* Pods */,
+				8DC89E0148AD5D7BD532102F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185CB54F1FCE8E9600AB7EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185CB54E1FCE8E9600AB7EB0 /* QYPSQLManager.app */,
+				185CB5621FCE8E9600AB7EB0 /* QYPSQLManagerTests.xctest */,
+				185CB56D1FCE8E9600AB7EB0 /* QYPSQLManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185CB5501FCE8E9600AB7EB0 /* QYPSQLManager */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5851FCEBD0100AB7EB0 /* QYPFMDB_Api */,
+				185CB5511FCE8E9600AB7EB0 /* AppDelegate.swift */,
+				185CB5941FCFBB2400AB7EB0 /* TEST */,
+				91491A431FCEF45E0033236E /* Student.swift */,
+				185CB5551FCE8E9600AB7EB0 /* Main.storyboard */,
+				185CB5581FCE8E9600AB7EB0 /* Assets.xcassets */,
+				185CB55A1FCE8E9600AB7EB0 /* LaunchScreen.storyboard */,
+				185CB55D1FCE8E9600AB7EB0 /* Info.plist */,
+			);
+			path = QYPSQLManager;
+			sourceTree = "<group>";
+		};
+		185CB5651FCE8E9600AB7EB0 /* QYPSQLManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5661FCE8E9600AB7EB0 /* QYPSQLManagerTests.swift */,
+				185CB5681FCE8E9600AB7EB0 /* Info.plist */,
+			);
+			path = QYPSQLManagerTests;
+			sourceTree = "<group>";
+		};
+		185CB5701FCE8E9600AB7EB0 /* QYPSQLManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5711FCE8E9600AB7EB0 /* QYPSQLManagerUITests.swift */,
+				185CB5731FCE8E9600AB7EB0 /* Info.plist */,
+			);
+			path = QYPSQLManagerUITests;
+			sourceTree = "<group>";
+		};
+		185CB5851FCEBD0100AB7EB0 /* QYPFMDB_Api */ = {
+			isa = PBXGroup;
+			children = (
+				185CB57F1FCE8FCD00AB7EB0 /* QYPSQLiteManager.swift */,
+				185CB5811FCE91CB00AB7EB0 /* QYPObject+Extension.swift */,
+				185CB58E1FCFB0BA00AB7EB0 /* QYPDBApi.swift */,
+				185CB58C1FCFAF5400AB7EB0 /* RunTime+Ext.swift */,
+				1824591D1FCFDE5D00570B82 /* DiscardedFun.swift */,
+			);
+			path = QYPFMDB_Api;
+			sourceTree = "<group>";
+		};
+		185CB5941FCFBB2400AB7EB0 /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5951FCFBB3D00AB7EB0 /* Controller */,
+				185CB5961FCFBB4C00AB7EB0 /* View */,
+				185CB5971FCFBB5800AB7EB0 /* Model */,
+				185CB59A1FCFBB7900AB7EB0 /* ViewModel */,
+			);
+			path = TEST;
+			sourceTree = "<group>";
+		};
+		185CB5951FCFBB3D00AB7EB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5531FCE8E9600AB7EB0 /* ViewController.swift */,
+				1824591F1FCFE56700570B82 /* UpdateViewController.swift */,
+				182459201FCFE56700570B82 /* UpdateViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185CB5961FCFBB4C00AB7EB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5901FCFB8D400AB7EB0 /* QYPTableViewCell.swift */,
+				185CB5911FCFB8D400AB7EB0 /* QYPTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185CB5971FCFBB5800AB7EB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5831FCE941700AB7EB0 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185CB59A1FCFBB7900AB7EB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				185CB5981FCFBB7500AB7EB0 /* SQLViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DC89E0148AD5D7BD532102F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E88DEE2230B81863CC702FD /* Pods_QYPSQLManager.framework */,
+				ECDF6B2C19ECD23A3442AD6F /* Pods_QYPSQLManagerTests.framework */,
+				0415987A7AF2357D2B650610 /* Pods_QYPSQLManagerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB550ABBBFDFD27C5F35D045 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C54316A74005A7BFBB61F /* Pods-QYPSQLManager.debug.xcconfig */,
+				2C0F7CA956377F62CC69F4D5 /* Pods-QYPSQLManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185CB54D1FCE8E9600AB7EB0 /* QYPSQLManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CB5761FCE8E9600AB7EB0 /* Build configuration list for PBXNativeTarget "QYPSQLManager" */;
+			buildPhases = (
+				77C636731B58A198B65D4485 /* [CP] Check Pods Manifest.lock */,
+				185CB54A1FCE8E9600AB7EB0 /* Sources */,
+				185CB54B1FCE8E9600AB7EB0 /* Frameworks */,
+				185CB54C1FCE8E9600AB7EB0 /* Resources */,
+				EE4BC68470C963E43E23A982 /* [CP] Embed Pods Frameworks */,
+				A153A0640BB50D53A7F25321 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYPSQLManager;
+			productName = QYPSQLManager;
+			productReference = 185CB54E1FCE8E9600AB7EB0 /* QYPSQLManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185CB5611FCE8E9600AB7EB0 /* QYPSQLManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CB5791FCE8E9600AB7EB0 /* Build configuration list for PBXNativeTarget "QYPSQLManagerTests" */;
+			buildPhases = (
+				185CB55E1FCE8E9600AB7EB0 /* Sources */,
+				185CB55F1FCE8E9600AB7EB0 /* Frameworks */,
+				185CB5601FCE8E9600AB7EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185CB5641FCE8E9600AB7EB0 /* PBXTargetDependency */,
+			);
+			name = QYPSQLManagerTests;
+			productName = QYPSQLManagerTests;
+			productReference = 185CB5621FCE8E9600AB7EB0 /* QYPSQLManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185CB56C1FCE8E9600AB7EB0 /* QYPSQLManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CB57C1FCE8E9600AB7EB0 /* Build configuration list for PBXNativeTarget "QYPSQLManagerUITests" */;
+			buildPhases = (
+				185CB5691FCE8E9600AB7EB0 /* Sources */,
+				185CB56A1FCE8E9600AB7EB0 /* Frameworks */,
+				185CB56B1FCE8E9600AB7EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185CB56F1FCE8E9600AB7EB0 /* PBXTargetDependency */,
+			);
+			name = QYPSQLManagerUITests;
+			productName = QYPSQLManagerUITests;
+			productReference = 185CB56D1FCE8E9600AB7EB0 /* QYPSQLManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185CB5461FCE8E9600AB7EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					185CB54D1FCE8E9600AB7EB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					185CB5611FCE8E9600AB7EB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185CB54D1FCE8E9600AB7EB0;
+					};
+					185CB56C1FCE8E9600AB7EB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185CB54D1FCE8E9600AB7EB0;
+					};
+				};
+			};
+			buildConfigurationList = 185CB5491FCE8E9600AB7EB0 /* Build configuration list for PBXProject "QYPSQLManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185CB5451FCE8E9600AB7EB0;
+			productRefGroup = 185CB54F1FCE8E9600AB7EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185CB54D1FCE8E9600AB7EB0 /* QYPSQLManager */,
+				185CB5611FCE8E9600AB7EB0 /* QYPSQLManagerTests */,
+				185CB56C1FCE8E9600AB7EB0 /* QYPSQLManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185CB54C1FCE8E9600AB7EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CB55C1FCE8E9600AB7EB0 /* LaunchScreen.storyboard in Resources */,
+				182459221FCFE56700570B82 /* UpdateViewController.xib in Resources */,
+				185CB5591FCE8E9600AB7EB0 /* Assets.xcassets in Resources */,
+				185CB5931FCFB8D400AB7EB0 /* QYPTableViewCell.xib in Resources */,
+				185CB5571FCE8E9600AB7EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB5601FCE8E9600AB7EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB56B1FCE8E9600AB7EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77C636731B58A198B65D4485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QYPSQLManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A153A0640BB50D53A7F25321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYPSQLManager/Pods-QYPSQLManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4BC68470C963E43E23A982 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QYPSQLManager/Pods-QYPSQLManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYPSQLManager/Pods-QYPSQLManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185CB54A1FCE8E9600AB7EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CB5841FCE941700AB7EB0 /* Person.swift in Sources */,
+				185CB5991FCFBB7500AB7EB0 /* SQLViewModel.swift in Sources */,
+				91491A441FCEF45E0033236E /* Student.swift in Sources */,
+				185CB58D1FCFAF5400AB7EB0 /* RunTime+Ext.swift in Sources */,
+				185CB58F1FCFB0BA00AB7EB0 /* QYPDBApi.swift in Sources */,
+				185CB5801FCE8FCD00AB7EB0 /* QYPSQLiteManager.swift in Sources */,
+				185CB5821FCE91CB00AB7EB0 /* QYPObject+Extension.swift in Sources */,
+				185CB5921FCFB8D400AB7EB0 /* QYPTableViewCell.swift in Sources */,
+				185CB5541FCE8E9600AB7EB0 /* ViewController.swift in Sources */,
+				185CB5521FCE8E9600AB7EB0 /* AppDelegate.swift in Sources */,
+				1824591E1FCFDE5D00570B82 /* DiscardedFun.swift in Sources */,
+				182459211FCFE56700570B82 /* UpdateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB55E1FCE8E9600AB7EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CB5671FCE8E9600AB7EB0 /* QYPSQLManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185CB5691FCE8E9600AB7EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CB5721FCE8E9600AB7EB0 /* QYPSQLManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185CB5641FCE8E9600AB7EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185CB54D1FCE8E9600AB7EB0 /* QYPSQLManager */;
+			targetProxy = 185CB5631FCE8E9600AB7EB0 /* PBXContainerItemProxy */;
+		};
+		185CB56F1FCE8E9600AB7EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185CB54D1FCE8E9600AB7EB0 /* QYPSQLManager */;
+			targetProxy = 185CB56E1FCE8E9600AB7EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185CB5551FCE8E9600AB7EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185CB5561FCE8E9600AB7EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185CB55A1FCE8E9600AB7EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185CB55B1FCE8E9600AB7EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185CB5741FCE8E9600AB7EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185CB5751FCE8E9600AB7EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185CB5771FCE8E9600AB7EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6C54316A74005A7BFBB61F /* Pods-QYPSQLManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9A5TMJ2KM;
+				INFOPLIST_FILE = QYPSQLManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.com.QYPSQLManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185CB5781FCE8E9600AB7EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0F7CA956377F62CC69F4D5 /* Pods-QYPSQLManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9A5TMJ2KM;
+				INFOPLIST_FILE = QYPSQLManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.com.QYPSQLManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		185CB57A1FCE8E9600AB7EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QYPSQLManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.com.QYPSQLManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYPSQLManager.app/QYPSQLManager";
+			};
+			name = Debug;
+		};
+		185CB57B1FCE8E9600AB7EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QYPSQLManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.com.QYPSQLManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYPSQLManager.app/QYPSQLManager";
+			};
+			name = Release;
+		};
+		185CB57D1FCE8E9600AB7EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QYPSQLManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.com.QYPSQLManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QYPSQLManager;
+			};
+			name = Debug;
+		};
+		185CB57E1FCE8E9600AB7EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QYPSQLManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.com.QYPSQLManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QYPSQLManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185CB5491FCE8E9600AB7EB0 /* Build configuration list for PBXProject "QYPSQLManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB5741FCE8E9600AB7EB0 /* Debug */,
+				185CB5751FCE8E9600AB7EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CB5761FCE8E9600AB7EB0 /* Build configuration list for PBXNativeTarget "QYPSQLManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB5771FCE8E9600AB7EB0 /* Debug */,
+				185CB5781FCE8E9600AB7EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CB5791FCE8E9600AB7EB0 /* Build configuration list for PBXNativeTarget "QYPSQLManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB57A1FCE8E9600AB7EB0 /* Debug */,
+				185CB57B1FCE8E9600AB7EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CB57C1FCE8E9600AB7EB0 /* Build configuration list for PBXNativeTarget "QYPSQLManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CB57D1FCE8E9600AB7EB0 /* Debug */,
+				185CB57E1FCE8E9600AB7EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185CB5461FCE8E9600AB7EB0 /* Project object */;
+}
