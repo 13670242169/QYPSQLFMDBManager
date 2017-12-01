@@ -8,7 +8,7 @@
 
 import Foundation
 extension NSObject{
-    /// 通过字典设置属性值
+    /// 通过字典设置属性值(运用场景,可以用来实现模型转字典的)
     ///
     /// - Parameter dic: [属性名:属性值]
     /// - Returns: 是否设置成功
@@ -52,6 +52,7 @@ extension NSObject{
             createTable(arr: arr)
         }
 
+        free(list)
         return arr
     }
 }
